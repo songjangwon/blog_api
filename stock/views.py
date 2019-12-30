@@ -20,7 +20,7 @@ class UserViewSet(viewsets.ModelViewSet):
     serializer_class = UserSerializer
 
     @action(detail=True, methods=['get'])
-    def start_pystock(self, request, pk):
+    def get_code_list(self, request, pk):
         print('ffdfasdfsdf')
         print('123465849')
         app = QApplication(sys.argv)
@@ -29,6 +29,15 @@ class UserViewSet(viewsets.ModelViewSet):
         code_list = kiwoom.get_code_list_by_market('10')
 
         return Response(code_list, status=status.HTTP_200_OK)
+
+    @action(detail=True, methods=['get'])
+    def get_account_list(self, request, pk):
+        app = QApplication(sys.argv)
+        kiwoom = Kiwoom()
+        kiwoom.comm_connect()
+
+        account_num = kiwoom.get_account_list()
+        return Response(account_num, status=status.HTTP_200_OK)
 
 class GroupViewSet(viewsets.ModelViewSet):
     """
@@ -73,3 +82,10 @@ class Kiwoom(QAxWidget):
         code_list = self.dynamicCall("GetCodeListByMarket(QString)", market)
         code_list = code_list.split(';')
         return code_list[:-1]
+
+    def get_account_list(self):
+        account_num = self.dynamicCall("GetLoginInfo(QString)", ["ACCNO"])
+
+        account_num = account_num.rstrip(';')
+
+        return account_num

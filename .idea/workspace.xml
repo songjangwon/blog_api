@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dfa9f617-0a25-4249-89d4-a0f257668b74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stock/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../movie_api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -59,15 +58,15 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="668" y="350" key="FileChooserDialogImpl" timestamp="1577375025459">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="763" y="360" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577171197547" />
-    <state x="2683" y="360" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577168237766" />
-    <state x="668" y="350" key="FileChooserDialogImpl/1680.-26.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1577375025458" />
-    <state x="2572" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1577170051574">
+    <state x="2683" y="360" key="FileChooserDialogImpl" timestamp="1577667777526">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2572" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577170051574" />
+    <state x="763" y="360" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577171197547" />
+    <state x="2683" y="360" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577667777526" />
+    <state x="668" y="350" key="FileChooserDialogImpl/1680.-26.1536.832/0.0.1680.1010@0.0.1680.1010" timestamp="1577375025458" />
+    <state x="2572" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1577667665007">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2572" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577667665007" />
   </component>
 </project>

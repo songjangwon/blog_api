@@ -73,14 +73,9 @@ class Kiwoom(QAxWidget):
 
 
     def comm_connect(self):
-
         self.dynamicCall("CommConnect()")
-
         self.login_event_loop = QEventLoop()
-
         self.login_event_loop.exec_()
-
-
 
     def _event_connect(self, err_code):
         if err_code == 0:
